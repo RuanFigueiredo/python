@@ -4,5 +4,5 @@ if salariodofuncionário <= 2000:
     novosalario = salariodofuncionário + (salariodofuncionário*20/100)
 if salariodofuncionário > 2000:
     novosalario = salariodofuncionário + (salariodofuncionário*10/100)
-print('o novo salário do funcionário é : {:.2f} R$'.format(novosalario))
+print(' O  salário do funcionário era : {:.2f} R$ e agora é: {}R$'.format(salariodofuncionário, novosalario))
 
